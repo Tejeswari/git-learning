@@ -1,0 +1,11 @@
+----
+version : 4.01
+create : pipeline
+pipeline : CICD
+CICD : [AWS,Jenkins,Azure,git]
+select : AWS
+AWS :
+service : code pipeline
+--code build
+--code commit
+--code deploy
